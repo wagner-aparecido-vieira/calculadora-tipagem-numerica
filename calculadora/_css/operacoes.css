@@ -1,0 +1,60 @@
+@charset "UTF-8";
+body{
+    background:#cecece ;
+    text-align: center;
+}
+section{
+    background-color:#E6E6FA;
+    width: 600px;
+    margin: auto;
+    box-shadow:3px 4px 5px #606060;
+}
+h1{
+   font-family: cursive;
+   text-shadow:1px 1px 1px #f50b41;
+
+}
+p{
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+}
+
+
+div#resposta{
+    width: 600px;
+    background: #606060;
+}
+div#tipo{
+    font-size: 10pt;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+input{
+    background-color:#cecece ;
+    font-size: 13pt;
+    font-style: italic;
+    width: 50px;
+}
+input#calcula{
+    color: white;
+    background-color: rgb(224, 63, 63);
+    font-size: 15pt;
+    font-style: normal;
+    width: 100px;
+    border-radius: 10px;
+   box-shadow: 1px 1px 1px rgb(33, 33, 33);
+}
+option{
+    width: 100px;
+    font-size: 20pt;
+    font-style: italic;
+    border-radius: 10px;
+    background:#cecece ;
+    text-align: center;
+    margin: auto;
+    
+
+}

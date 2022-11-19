@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando e Identificando Tipos Numericos</title>
+    <link rel="stylesheet" href="_css/operacoes.css">
+</head>
+<body>
+    <header>
+        <h1>CALCULADORA</h1>
+    </header>
+    <section >
+        <div id="menu"  
+        valor1.value='';>
+            <h1>ESCOLHA OS NÚMEROS</h1>
+            <p>Digite um número:<input type="number" name="nr1" id="nr1"></p>
+            <p>Digite outro número:<input type="number" name="nr2" id="nr2"></p>
+            <h1>ESCOLHA A OPERAÇÃO</h1>
+            <p onclick="calcula()"</p>
+            <p>Digite [1] para soma</p>
+            <p>Digite [2] para subtração</p>
+            <p>Digite [3] para divisão</p>
+            <p>Digite [4] para multiplicação</p>
+            <p>Digite [5] para potenciação</p>
+            <p> Digite uma operação<input type="number" name="operacao" id="operacao" min="0"></p>
+            <input type="button" name="calcula" id="calcula" value="Calcular" onclick="calcula()">
+        </div>
+        <div id="resposta">
+       <option type="number"  name="calc" id="calc" ></option>
+        </div> 
+        <div id="tipo"><h1 id="tipo"><span>TIPO NUMERICO</span></h1> 
+
+            
+            <p><h1 id="1"></h1></p>
+            <p><h1 id="2"></h1></p>
+            <p><h2 id="3"></h2></p>
+            <p><h3 id="4"></h3></p>
+            <p><h3 id="5"></h3></p>
+            <p><h3 id="6"></h3></p>
+            <p><h3 id="7"></h3></p>
+            <p><h3 id="8"></h3></p>
+
+        </div>
+    </section>
+    <script src="_javascript/operacoes.js"></script>
+</body>
+</html>
